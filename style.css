@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.nav-color{
+    color: #0a0a0a;
+}
+
+.hero-text{
+    letter-spacing: 1.2px;
+    line-height: 68px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto';
+}
+.hero-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2rem 0rem 0rem 0rem;
+    font-family: 'Roboto';
+
+}
+.hero-link:hover{
+    color: white;
+}
+.homebg{
+    background-image: url("./images/background-layer.png");
+    object-fit: cover;
+    height: 120vh;
+}
+.Herotextposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.hero-header{
+    font-size: 24px;
+    color: #139139;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    padding: 2rem 0rem 2.5rem 0rem;
+}
+.about-para{
+    font-size: 18px;
+    padding: 0rem 3rem 2rem 3rem;
+    font-family: 'Roboto';
+    color:#000000;
+}
+.card-header{
+    font-size: 20px;
+    font-family: 'Roboto';
+    padding: 1rem 0rem 1rem 0rem;
+    color:#000000;
+}
+.card-para{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color:#000000;
+}
+.award-desc{
+    font-size: 12px;
+    font-family: 'Roboto';
+    color:#000000;
+}
+.award-header{
+    font-size: 18px;
+    font-family: 'Roboto';
+    color:#000000;
+}
+
+.vision-mission-img{
+    width: 400px;
+    height: 300px;
+}
+.about-margin{
+    padding: 0rem 0rem 0rem 5rem;
+}
+
+.awards-img{
+    height: 200px;
+    width: 280px;
+}
+
+@media screen and (max-width: 768px ){
+    .about-margin{
+        padding: 0rem 0rem 0rem 1.5rem;
+    }
+    .vision-mission-img{
+        width: 300px;
+        height: 200px;
+    }
+    .hero-text{
+        letter-spacing: 1.2px;
+        line-height: 26px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-family: 'Roboto';
+    }
+    .Copyright-text{
+          font-size: 8px;
+          color:#000000;
+    }
+
+}
+
+@media (min-width: 769px ) and (max-width: 990px ){
+    .about-margin1{
+        margin-left: 3px;
+    }
+}
+
+.imgfluid{
+    width: 25px;
+    height: 15px;
+}
+
+.footer-bg{
+    padding: 1rem 0rem 1rem 0rem;
+    background-color:  #139139;
+}
+.location-header{
+    font-family: 'Roboto';
+    color:#000000;
+    padding-bottom: 2rem;
+}
+.place-name{
+    font-family: 'Roboto';
+    color:#000000;
+    padding-bottom: 1.5rem;
+    font-size: 18px;
+}
+.place-para{
+    font-family: 'Roboto';
+    color:#000000;
+    padding-bottom: 2rem;
+    font-size: 14px;
+}
+.place-para-mob{
+    font-family: 'Roboto';
+    color:#000000;
+    padding: 1rem 3rem 2rem 3rem;
+    font-size: 14px;
+}
